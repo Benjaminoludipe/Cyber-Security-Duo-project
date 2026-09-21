@@ -1,0 +1,184 @@
+                #               d                               
+                #        This enables optimized SSL connection renegclient_loop: send disconnect: Broken pipe
+benjisanusi@Leahs-MacBook-Air-2 ~ % ssh -i labvm1.pem azureuser@172.162.240.159
+  [Restored 4 Dec 2025 at 12:21:40]
+Last login: Thu Dec  4 12:21:30 on console
+/Users/benjisanusi/.zsh_sessions/76979A08-B854-47EF-974E-6D38C1816876.session:2: command not found: Saving
+benjisanusi@Leahs-MacBook-Air-2 ~ % 
+  [Restored 8 Dec 2025 at 15:11:43]
+Last login: Mon Dec  8 15:11:43 on ttys000
+benjisanusi@Leahs-MacBook-Air-2 ~ % ssh -i "web-vm_key_1202.pem" azureuser@172.161.27.10
+Warning: Identity file web-vm_key_1202.pem not accessible: No such file or directory.
+^[[A^[[A^[[A^C
+benjisanusi@Leahs-MacBook-Air-2 ~ % ssh -i ~/.ssh/web-vm_key.pem azureuser@172.161.27.10
+Warning: Identity file /Users/benjisanusi/.ssh/web-vm_key.pem not accessible: No such file or directory.
+
+^[[A^[[A
+
+
+^C
+benjisanusi@Leahs-MacBook-Air-2 ~ % ssh -i "web-vm_key_1202.pem" azureuser@172.161.27.10
+
+Warning: Identity file web-vm_key_1202.pem not accessible: No such file or directory.
+^[[A^[[A^[[A^C
+benjisanusi@Leahs-MacBook-Air-2 ~ % ssh -i "web-vm_key_1202.pem" azureuser@172.161.27.10
+Warning: Identity file web-vm_key_1202.pem not accessible: No such file or directory.
+^C
+benjisanusi@Leahs-MacBook-Air-2 ~ % ssh -i ~/Downloads/web-vm_key_1202.pem azureuser@172.161.27.10
+
+^C
+benjisanusi@Leahs-MacBook-Air-2 ~ % ssh -i labvm1.pem azureuser@172.162.240.159
+Warning: Identity file labvm1.pem not accessible: No such file or directory.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ED25519 key sent by the remote host is
+SHA256:yn2T98qTrcYc1WJ5evh9vybfEAyvvAXRHgzr8U7c3V8.
+Please contact your system administrator.
+Add correct host key in /Users/benjisanusi/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /Users/benjisanusi/.ssh/known_hosts:3
+Host key for 172.162.240.159 has changed and you have requested strict checking.
+Host key verification failed.
+benjisanusi@Leahs-MacBook-Air-2 ~ % ssh -i ~/.ssh/web-vm_key.pem azureuser@172.161.27.10          
+Warning: Identity file /Users/benjisanusi/.ssh/web-vm_key.pem not accessible: No such file or directory.
+^[[A^C
+benjisanusi@Leahs-MacBook-Air-2 ~ % ssh -i ~/Downloads/web-vm_key_1202.pem azureuser@172.161.27.10
+
+ssh: connect to host 172.161.27.10 port 22: Operation timed out
+benjisanusi@Leahs-MacBook-Air-2 ~ % 
+  [Restored 9 Dec 2025 at 01:03:55]
+Last login: Tue Dec  9 01:03:49 on console
+/Users/benjisanusi/.zsh_sessions/76979A08-B854-47EF-974E-6D38C1816876.session:2: command not found: Saving
+benjisanusi@Leahs-MacBook-Air-2 ~ % 
+  [Restored 1 Jan 2023 at 00:02:11]
+Last login: Sun Jan  1 00:02:03 on console
+benjisanusi@Leahs-MacBook-Air-2 ~ % 
+  [Restored 10 Dec 2025 at 17:41:37]
+Last login: Wed Dec 10 17:41:28 on console
+benjisanusi@Leahs-MacBook-Air-2 ~ % 
+  [Restored 15 Dec 2025 at 16:12:45]
+Last login: Mon Dec 15 16:12:37 on console
+/Users/benjisanusi/.zsh_sessions/76979A08-B854-47EF-974E-6D38C1816876.session:2: command not found: Saving
+benjisanusi@Leahs-MacBook-Air-2 ~ % 
+  [Restored 17 Dec 2025 at 19:25:55]
+Last login: Wed Dec 17 19:25:46 on console
+/Users/benjisanusi/.zsh_sessions/76979A08-B854-47EF-974E-6D38C1816876.session:2: command not found: Saving
+benjisanusi@Leahs-MacBook-Air-2 ~ % 
+  [Restored 28 Dec 2025 at 22:21:31]
+Last login: Sun Dec 28 22:21:20 on console
+benjisanusi@Benjamin-MacBook-Air ~ % 
+  [Restored 2 Jan 2026 at 04:38:00]
+Last login: Sun Dec 28 22:21:32 on ttys000
+benjisanusi@Benjamin-MacBook-Air ~ % 
+  [Restored 2 Jan 2026 at 23:59:31]
+Last login: Fri Jan  2 23:59:21 on console
+benjisanusi@Benjamin-MacBook-Air ~ % 
+  [Restored 1 Jan 2023 at 00:26:23]
+Last login: Sun Jan  1 00:26:13 on console
+benjisanusi@Benjamin-MacBook-Air ~ % 
+  [Restored 15 Jan 2026 at 17:44:21]
+Last login: Thu Jan 15 17:44:13 on console
+benjisanusi@Benjamin-MacBook-Air ~ % 
+  [Restored 24 Jan 2026 at 21:46:42]
+Last login: Sat Jan 24 21:46:35 on console
+benjisanusi@Benjamin-MacBook-Air ~ % 
+  [Restored 27 Jan 2026 at 14:28:06]
+Last login: Tue Jan 27 14:27:58 on console
+Restored session: Mon 26 Jan 2026 21:18:23 GMT
+benjisanusi@Benjamin-MacBook-Air ~ % 
+  [Restored 4 Feb 2026 at 00:41:32]
+Last login: Tue Jan 27 14:28:07 on ttys001
+benjisanusi@Benjamin-MacBook-Air ~ % 
+benjisanusi@Benjamin-MacBook-Air ~ % 
+benjisanusi@Benjamin-MacBook-Air ~ % pwsh
+PowerShell 7.5.4
+PS /Users/benjisanusi> Get-ExecutionPolicy -List
+
+        Scope ExecutionPolicy
+        ----- ---------------
+MachinePolicy    Unrestricted
+   UserPolicy    Unrestricted
+      Process    Unrestricted
+  CurrentUser    Unrestricted
+ LocalMachine    Unrestricted
+
+PS /Users/benjisanusi> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+Set-ExecutionPolicy: Operation is not supported on this platform.
+PS /Users/benjisanusi> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+Set-ExecutionPolicy: Operation is not supported on this platform.
+PS /Users/benjisanusi> mkdir test_lab
+mkdir: test_lab: File exists
+PS /Users/benjisanusi> mkdir test1_lab
+PS /Users/benjisanusi> cd test1_lab 
+PS /Users/benjisanusi/test1_lab> notepad test.ps1
+notepad: The term 'notepad' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS /Users/benjisanusi/test1_lab> code test.ps1
+code: The term 'code' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS /Users/benjisanusi/test1_lab> .\test.ps1
+.\test.ps1: The term '.\test.ps1' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS /Users/benjisanusi/test1_lab> chmod test.ps1
+usage:	chmod [-fhv] [-R [-H | -L | -P]] [-a | +a | =a  [i][# [ n]]] mode|entry file ...
+	chmod [-fhv] [-R [-H | -L | -P]] [-E | -C | -N | -i | -I] file ...
+PS /Users/benjisanusi/test1_lab> Write-Host "PowerShell script is running"
+PowerShell script is running
+PS /Users/benjisanusi/test1_lab> Get-ExecutionPolicy -List
+
+        Scope ExecutionPolicy
+        ----- ---------------
+MachinePolicy    Unrestricted
+   UserPolicy    Unrestricted
+      Process    Unrestricted
+  CurrentUser    Unrestricted
+ LocalMachine    Unrestricted
+
+PS /Users/benjisanusi/test1_lab> mkdir bash_lab 
+PS /Users/benjisanusi/test1_lab> cd bash_lab   
+PS /Users/benjisanusi/test1_lab/bash_lab> touch hardening_test.sh
+PS /Users/benjisanusi/test1_lab/bash_lab> echo '#!/bin/bash' > hardening_test.sh
+
+PS /Users/benjisanusi/test1_lab/bash_lab> echo 'echo "Secure Script Running"' >> hardening_test.sh
+PS /Users/benjisanusi/test1_lab/bash_lab> ls -l hardening_test.sh
+-rw-r--r--  1 benjisanusi  staff  41  4 Feb 12:05 hardening_test.sh
+PS /Users/benjisanusi/test1_lab/bash_lab> chmod 700 hardening_test.sh
+PS /Users/benjisanusi/test1_lab/bash_lab> ls -l hardening_test.sh
+-rwx------  1 benjisanusi  staff  41  4 Feb 12:05 hardening_test.sh
+PS /Users/benjisanusi/test1_lab/bash_lab> ./hardening_test.sh
+Secure Script Running
+PS /Users/benjisanusi/test1_lab/bash_lab> ./test.ps1         
+./test.ps1: The term './test.ps1' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS /Users/benjisanusi/test1_lab/bash_lab> ./test.ps1
+./test.ps1: The term './test.ps1' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS /Users/benjisanusi/test1_lab/bash_lab> nano ./test.ps1            
+
+  UW PICO 5.09                    File: ./test.ps1                    Modified  
+
+file is running 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
+^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
